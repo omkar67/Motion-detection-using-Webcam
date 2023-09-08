@@ -4,7 +4,7 @@ from datetime import datetime
 
 # Initialize the video capture
 vid = cv2.VideoCapture(0)
-first_frame = None
+
 status_list = [None, None]
 moment_list = []
 df = pd.DataFrame(columns=['Start', 'End'])
